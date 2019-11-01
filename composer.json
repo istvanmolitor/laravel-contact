@@ -1,5 +1,7 @@
 {
   "name": "istvanmolitor/laravel-contact",
+  "description": "Laravel kapcsolat",
+  "type": "libary",
   "authors": [
     {
       "name": "Molitor István",
@@ -10,7 +12,11 @@
     "laravelcollective/html": "^6.0",
     "google/recaptcha": "^1.2"
   },
-  "autoload": {},
+  "autoload": {
+    "psr-4": {
+      "IstvanMolitor\\LaravelContact\\": "src"
+    }
+  },
   "extra": {
     "laravel": {
       "providers": [
