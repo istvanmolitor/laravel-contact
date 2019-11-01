@@ -1,0 +1,21 @@
+{
+  "name": "istvanmolitor/laravel-contact",
+  "authors": [
+    {
+      "name": "Molitor István",
+      "email": "istvanmolitor@gmail.com"
+    }
+  ],
+  "require": {
+    "laravelcollective/html": "^6.0",
+    "google/recaptcha": "^1.2"
+  },
+  "autoload": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "IstvanMolitor\\LaravelContact\\Providers\\LaravelContactServiceProvider"
+      ]
+    }
+  }
+}

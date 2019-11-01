@@ -1,0 +1,14 @@
+<?php
+
+namespace IstvanMolitor\LaravelContact\Providers;
+
+use Illuminate\Support\ServiceProvider;
+
+class LaravelContactServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'contact');
+    }
+}
