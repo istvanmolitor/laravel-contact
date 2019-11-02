@@ -1,7 +1,7 @@
 {
   "name": "istvanmolitor/laravel-contact",
   "description": "Laravel kapcsolat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "libary",
   "authors": [
     {
@@ -10,6 +10,7 @@
     }
   ],
   "require": {
+    "laravel/ui": "^1.1",
     "laravelcollective/html": "^6.0",
     "google/recaptcha": "^1.2"
   },
